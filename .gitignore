@@ -1,0 +1,7 @@
+.SLURM_datalad_lock
+.get_files_extract.*/
+logs/slurm-*.out
+logs/slurm-*.err
+merge_ds/
+code/done.txt
+code/missing.txt
