@@ -1,0 +1,11 @@
+type_session: multi-ses
+type_system: slurm
+input_ds:
+  $INPUT_DATASET_#1:
+    name: BIDS
+    path_in: /cbica/projects/pennlinc_rbc/datasets/LINC_CCNP/BIDS
+    path_data_rel: inputs/data/BIDS
+    is_zipped: false
+container:
+  name: fmriprep-24-1-1
+  path_in: /cbica/projects/pennlinc_rbc/apptainer-datasets/fmriprep-24-1-1-ds
