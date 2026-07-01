@@ -1,0 +1,196 @@
+participant_id	session_id	study	euler	rater_1	rater_3	rater_4	rater_5	rater_6	across_rater_average	qc_determination
+colornest001	1	CCNP	-21	1	1				1	Pass
+colornest002	1	CCNP	-24			1	1	1	1	Pass
+colornest003	1	CCNP	-89	1	1	1	1	1	1	Pass
+colornest004	1	CCNP	-55			1	1	1	1	Pass
+colornest005	1	CCNP	-114	1			1		1	Pass
+colornest006	1	CCNP	-72			1	1	1	1	Pass
+colornest007	1	CCNP	-47			1	1	1	1	Pass
+colornest008	1	CCNP	-43		1	1		1	1	Pass
+colornest009	1	CCNP	-86	1	0.25				0.625	Artifact
+colornest010	1	CCNP	-63	1	1				1	Pass
+colornest011	1	CCNP	-51	1	1	1	1	1	1	Pass
+colornest012	1	CCNP	-48	1	1	1	1	1	1	Pass
+colornest013	1	CCNP	-41			1	1	1	1	Pass
+colornest014	1	CCNP	-26	1	1				1	Pass
+colornest015	1	CCNP	-43	1	1	1	1	1	1	Pass
+colornest016	1	CCNP	-34	1	1				1	Pass
+colornest017	1	CCNP	-52		1	1		1	1	Pass
+colornest018	1	CCNP	-63	1			1		1	Pass
+colornest019	1	CCNP	-82	1	1				1	Pass
+colornest020	1	CCNP	-48	1			1		1	Pass
+colornest021	1	CCNP	-35	1	1				1	Pass
+colornest022	1	CCNP	-43	1	1				1	Pass
+colornest023	1	CCNP	-80		1	1		1	1	Pass
+colornest024	1	CCNP	-36	1			1		1	Pass
+colornest025	1	CCNP	-67	1	1	1	1	1	1	Pass
+colornest026	1	CCNP	-56			1	1	1	1	Pass
+colornest027	1	CCNP	-88		1	1		1	1	Pass
+colornest028	1	CCNP	-44	1			1		1	Pass
+colornest029	1	CCNP	-37		0.75	1		1	0.916666667	Artifact
+colornest030	1	CCNP	-36	1	1	1	1	1	1	Pass
+colornest031	1	CCNP	-93		1	1		1	1	Pass
+colornest032	1	CCNP	-57	1	1	1	1	1	1	Pass
+colornest033	1	CCNP	-83	1			1		1	Pass
+colornest034	1	CCNP	-11	1		1	1	1	1	Pass
+colornest035	1	CCNP	-50			1	1	1	1	Pass
+colornest036	1	CCNP	-60		1	1		1	1	Pass
+colornest037	1	CCNP	-37	1	1	1	1	1	1	Pass
+colornest038	1	CCNP	-45			1	1	1	1	Pass
+colornest039	1	CCNP	-202	0.5		0	0	0	0.125	Artifact
+colornest040	1	CCNP	-25		1	1		1	1	Pass
+colornest041	1	CCNP	-103	1	1				1	Pass
+colornest042	1	CCNP	-64			1	1	1	1	Pass
+colornest043	1	CCNP	-43	1	1	1	1	1	1	Pass
+colornest044	1	CCNP	-22	1	1	1	1	1	1	Pass
+colornest045	1	CCNP	-63		1	1		1	1	Pass
+colornest046	1	CCNP	-40	1			1		1	Pass
+colornest047	1	CCNP	-22			1	1	1	1	Pass
+colornest048	1	CCNP	-41	1	1	1	1	1	1	Pass
+colornest049	1	CCNP	-195	0.25			0.5		0.375	Artifact
+colornest050	1	CCNP	-30			1	1	1	1	Pass
+colornest051	1	CCNP	-16			1	1	1	1	Pass
+colornest052	1	CCNP	-68		0.75	1		1	0.916666667	Artifact
+colornest053	1	CCNP	-40	1			1		1	Pass
+colornest054	1	CCNP	-29	1			1		1	Pass
+colornest055	1	CCNP	-48		1	1		1	1	Pass
+colornest056	1	CCNP	-68	1	1	1	1	1	1	Pass
+colornest057	1	CCNP	-46	1	1				1	Pass
+colornest058	1	CCNP	-95	1	1	1	1	1	1	Pass
+colornest059	1	CCNP	-28		1	1		1	1	Pass
+colornest060	1	CCNP	-96	0.5	0.75				0.625	Artifact
+colornest061	1	CCNP	-69	1	1	1	1	1	1	Pass
+colornest062	1	CCNP	-58	1	1				1	Pass
+colornest063	1	CCNP	-102	1	1	1	1	1	1	Pass
+colornest064	1	CCNP	-43			1	1	1	1	Pass
+colornest065	1	CCNP	-40	1	1	1	1	1	1	Pass
+colornest066	1	CCNP	-54	1			1		1	Pass
+colornest067	1	CCNP	-42	1	1				1	Pass
+colornest068	1	CCNP	-51	1	0.75	1	1	1	0.95	Artifact
+colornest069	1	CCNP	-64	1	1				1	Pass
+colornest070	1	CCNP	-47			1	1	1	1	Pass
+colornest071	1	CCNP	-58		1	1		1	1	Pass
+colornest072	1	CCNP	-45	1	1				1	Pass
+colornest073	1	CCNP	-80	1			1		1	Pass
+colornest074	1	CCNP	-22		1	1		1	1	Pass
+colornest075	1	CCNP	-70	1			1		1	Pass
+colornest076	1	CCNP	-100			1	1	1	1	Pass
+colornest077	1	CCNP	-43			1	1	1	1	Pass
+colornest078	1	CCNP	-31			1	1	1	1	Pass
+colornest079	1	CCNP	-58		1	1		1	1	Pass
+colornest080	1	CCNP	-25	1	1				1	Pass
+colornest081	1	CCNP	-52	1			1		1	Pass
+colornest082	1	CCNP	-42	1	1	1	1	1	1	Pass
+colornest083	1	CCNP	-99	1	0.75	1	1	1	0.95	Artifact
+colornest084	1	CCNP	-59	1			1		1	Pass
+colornest085	1	CCNP	-54			1	1	1	1	Pass
+colornest086	1	CCNP	-62	1	1				1	Pass
+colornest087	1	CCNP	-31	1			1		1	Pass
+colornest088	1	CCNP	-33		1	1		1	1	Pass
+colornest089	1	CCNP	-59			1	1	0.75	0.916666667	Artifact
+colornest090	1	CCNP	-56	1			1		1	Pass
+colornest091	1	CCNP	-52	1	1	1	1	1	1	Pass
+colornest092	1	CCNP	-17	1		1	1	1	1	Pass
+colornest093	1	CCNP	-40		1	1		1	1	Pass
+colornest094	1	CCNP	-114	1	1				1	Pass
+colornest095	1	CCNP	-42	1	1				1	Pass
+colornest096	1	CCNP	-39			1	1	1	1	Pass
+colornest097	1	CCNP	-47		1	1		1	1	Pass
+colornest098	1	CCNP	-66	1	1				1	Pass
+colornest099	1	CCNP	-45		1	1		1	1	Pass
+colornest100	1	CCNP	-66			1	1	1	1	Pass
+colornest101	1	CCNP	-47	1			1		1	Pass
+colornest102	1	CCNP	-26			1	1	1	1	Pass
+colornest103	1	CCNP	-26	1			1		1	Pass
+colornest104	1	CCNP	-84			1	1	0.5	0.833333333	Artifact
+colornest105	1	CCNP	-148	1	0.25	1	0.5	1	0.75	Artifact
+colornest106	1	CCNP	-43	1			1		1	Pass
+colornest107	1	CCNP	-86			1	1	1	1	Pass
+colornest108	1	CCNP	-49		1	1		1	1	Pass
+colornest109	1	CCNP	-90			1	1	1	1	Pass
+colornest110	1	CCNP	-35	1			1		1	Pass
+colornest111	1	CCNP	-59	1	1				1	Pass
+colornest112	1	CCNP	-40	1	1				1	Pass
+colornest113	1	CCNP	-21			1	1	1	1	Pass
+colornest114	1	CCNP	-33	1			1		1	Pass
+colornest115	1	CCNP	-37	1			1		1	Pass
+colornest116	1	CCNP	-48			1	1	1	1	Pass
+colornest117	1	CCNP	-34	1	1				1	Pass
+colornest118	1	CCNP	-62	1	1	1	1	1	1	Pass
+colornest119	1	CCNP	-21	1	1				1	Pass
+colornest120	1	CCNP	-48	1	1				1	Pass
+colornest121	1	CCNP	-39	1	1	1	1	1	1	Pass
+colornest122	1	CCNP	-49	1			1		1	Pass
+colornest123	1	CCNP	-29	1	1				1	Pass
+colornest124	1	CCNP	-18	1	1	1	1	1	1	Pass
+colornest125	1	CCNP	-48		1	1		1	1	Pass
+colornest126	1	CCNP	-50			1	1	1	1	Pass
+colornest127	1	CCNP	-57	1			1		1	Pass
+colornest128	1	CCNP	-53	1	1	1	1	1	1	Pass
+colornest129	1	CCNP	-40	1	1				1	Pass
+colornest130	1	CCNP	-31	1	1	1	1	1	1	Pass
+colornest131	1	CCNP	-29		1	1		1	1	Pass
+colornest132	1	CCNP	-135		0.75	0.75		0.25	0.583333333	Artifact
+colornest133	1	CCNP	-100			1	0.25	1	0.75	Artifact
+colornest134	1	CCNP	-50	1			1		1	Pass
+colornest135	1	CCNP	-84	1			1		1	Pass
+colornest136	1	CCNP	-19		1	1		1	1	Pass
+colornest137	1	CCNP	-53			1	1	1	1	Pass
+colornest138	1	CCNP	-56		1	1		1	1	Pass
+colornest139	1	CCNP	-22		1	1		1	1	Pass
+colornest140	1	CCNP	-76	1			1		1	Pass
+colornest141	1	CCNP	-39			1	1	1	1	Pass
+colornest142	1	CCNP	-44	1	1				1	Pass
+colornest143	1	CCNP	-41			1	1	1	1	Pass
+colornest144	1	CCNP	-79		1	1		1	1	Pass
+colornest145	1	CCNP	-44	1	1				1	Pass
+colornest146	1	CCNP	-71	1	1	1	1	1	1	Pass
+colornest147	1	CCNP	-44	1	1				1	Pass
+colornest148	1	CCNP	-49		1	1		1	1	Pass
+colornest149	1	CCNP	-33		1	1		1	1	Pass
+colornest150	1	CCNP	-30		1	1		1	1	Pass
+colornest151	1	CCNP	-36	0.75	1	1	1	1	0.95	Artifact
+colornest152	1	CCNP	-47	1	1				1	Pass
+colornest153	1	CCNP	-29			1	1	1	1	Pass
+colornest154	1	CCNP	-42			1	1	1	1	Pass
+colornest155	1	CCNP	-61	1	1	1	1	1	1	Pass
+colornest156	1	CCNP	-40	1	1	1	1	1	1	Pass
+colornest157	1	CCNP	-75			1	1	1	1	Pass
+colornest158	1	CCNP	-76		1	1		1	1	Pass
+colornest159	1	CCNP	-98		1	1		1	1	Pass
+colornest160	1	CCNP	-45	1			1		1	Pass
+colornest161	1	CCNP	-26	1			1		1	Pass
+colornest162	1	CCNP	-86	1	1	1	1	1	1	Pass
+colornest163	1	CCNP	-18	1		1	1	1	1	Pass
+colornest164	1	CCNP	-18	1	1				1	Pass
+colornest165	1	CCNP	-20	1	1	1	1	1	1	Pass
+colornest166	1	CCNP	-23	1			1		1	Pass
+colornest167	1	CCNP	-30	1			1		1	Pass
+colornest168	1	CCNP	-42	1	1				1	Pass
+colornest169	1	CCNP	-16		0.75	1		1	0.916666667	Artifact
+colornest170	1	CCNP	-36	1	1				1	Pass
+colornest171	1	CCNP	-23	1	1				1	Pass
+colornest172	1	CCNP	-41	1	1	1	1	1	1	Pass
+colornest173	1	CCNP	-26		1	1		1	1	Pass
+colornest174	1	CCNP	-16		1	1		1	1	Pass
+colornest175	1	CCNP	-9	1		1	1	1	1	Pass
+colornest176	1	CCNP	-32	1	1				1	Pass
+colornest177	1	CCNP	-92	1	1				1	Pass
+colornest178	1	CCNP	-24	1			1		1	Pass
+colornest179	1	CCNP	-19	1	1	1	1	1	1	Pass
+colornest180	1	CCNP	-17	1	1	1	1	1	1	Pass
+colornest181	1	CCNP	-195	0	0				0	Fail
+colornest182	1	CCNP	-36	1	1	1	1	1	1	Pass
+colornest183	1	CCNP	-34		1	1		1	1	Pass
+colornest184	1	CCNP	-29	1			1		1	Pass
+colornest185	1	CCNP	-33	1	1	1	1	1	1	Pass
+colornest186	1	CCNP	-60		1	1		1	1	Pass
+colornest187	1	CCNP	-32		1	1		1	1	Pass
+colornest188	1	CCNP	-47	1			1		1	Pass
+colornest189	1	CCNP	-174			1	1	0.5	0.833333333	Artifact
+colornest190	1	CCNP	-74	1			1		1	Pass
+colornest191	1	CCNP	-30	1	1	1	1	1	1	Pass
+colornest192	1	CCNP	-34	1			1		1	Pass
+colornest193	1	CCNP	-34			1	1	1	1	Pass
+colornest194	1	CCNP	-26			1	1	1	1	Pass
+colornest195	1	CCNP	-29	1			1		1	Pass
