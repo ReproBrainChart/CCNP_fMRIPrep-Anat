@@ -8,8 +8,18 @@
 #
 # Invoked by participant_job.sh inside `datalad run`. CWD is the dataset root.
 #   Argument $1: path to the .zip file (under inputs/data/).
+#
+# With --expected-paths <zip>, change nothing and print the dataset paths the
+# unzip creates, one per line. participant_job.sh checks the unzip commit
+# against that list, so expected_paths must mirror every rule below.
 # =============================================================================
 set -e -u -x
+
+MODE="unzip"
+if [ "${1:-}" = "--expected-paths" ]; then
+    MODE="expected-paths"
+    shift
+fi
 
 ZIP_FILE="$1"
 zipbase=$(basename "${ZIP_FILE}")
@@ -22,6 +32,40 @@ if [ -z "${subid}" ] || [ -z "${sesid}" ]; then
 fi
 
 LEADING_DIR="fmriprep_anat"
+
+# --- expected paths ----------------------------------------------------------
+# Map each file entry of the zip to where the steps below leave it: only
+# LEADING_DIR/ is lifted to the root, then the same renames and deletes apply.
+expected_paths() {
+    local entries entry path
+
+    entries=$(unzip -Z1 "${ZIP_FILE}")
+    while IFS= read -r entry; do
+        case "${entry}" in
+            */) continue ;;
+            "${LEADING_DIR}/"*) path="${entry#"${LEADING_DIR}/"}" ;;
+            *) continue ;;
+        esac
+        case "${path}" in
+            "${subid}.html") path="${subid}_${sesid}.html" ;;
+            "${subid}_anat.html") path="${subid}_${sesid}_anat.html" ;;
+            "${subid}_${sesid}_func.html"|*/*) ;;
+            "${subid}"_ses-*_func.html) continue ;;
+        esac
+        case "${path}" in
+            "sourcedata/freesurfer/${subid}/"*)
+                path="sourcedata/freesurfer/${subid}_${sesid}/${path#"sourcedata/freesurfer/${subid}/"}"
+                ;;
+        esac
+        printf '%s\n' "${path}"
+    done <<< "${entries}"
+}
+
+if [ "${MODE}" = "expected-paths" ]; then
+    set +x
+    expected_paths
+    exit 0
+fi
 
 # --- extract -----------------------------------------------------------------
 move_tree_no_overwrite() {
@@ -69,6 +113,11 @@ move_tree_no_overwrite "${extract_dir}/${LEADING_DIR}" "."
 if [ -f "${subid}.html" ]; then
     mv "${subid}.html" "${subid}_${sesid}.html"
 fi
+if [ -f "${subid}_anat.html" ]; then
+    mv "${subid}_anat.html" "${subid}_${sesid}_anat.html"
+fi
+find . -maxdepth 1 -type f -name "${subid}_ses-*_func.html" \
+    ! -name "${subid}_${sesid}_func.html" -delete
 
 # FreeSurfer anat-only outputs are stored under sourcedata/freesurfer/<sub>,
 # even though this pipeline runs per subject-session. Inject the session entity
