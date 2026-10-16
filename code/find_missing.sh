@@ -24,8 +24,9 @@ n_done=$(wc -l < code/done.txt)
 n_missing=$(wc -l < code/missing.txt)
 echo "total=${n_all}  done=${n_done}  missing=${n_missing}"
 
-if [ "${n_missing}" -gt 0 ]; then
+if [ "${n_missing}" -gt 0 ] && [ "${FIND_MISSING_QUIET:-0}" != "1" ]; then
     echo ""
     echo "Resubmit the missing jobs with:"
     echo "  sbatch --array=1-${n_missing}%${THROTTLE} code/submit_array.sh code/missing.txt"
 fi
+
